@@ -9,7 +9,7 @@ export function J5Logo({ className = "", size = "default" }: { className?: strin
 
   return (
     <svg
-      viewBox="30 50 140 80"
+      viewBox="40 55 120 70"
       width={width}
       height={height}
       className={className}

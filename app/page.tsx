@@ -44,23 +44,21 @@ export default function HomePage() {
           <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-3xl text-center">
               {/* Logo */}
-              <div className="mx-auto mb-6 flex justify-center">
+              <div className="mx-auto mb-6 mt-4 flex items-center justify-center">
                 <J5Logo size="large" />
+                <span
+                  className="text-5xl font-black uppercase sm:text-6xl lg:text-7xl"
+                  style={{
+                    fontFamily: "'Bangers', 'Impact', 'Arial Black', sans-serif",
+                    color: "#FF1744",
+                    textShadow: "-0.5px -0.5px 0 #fff, 0.5px -0.5px 0 #fff, -0.5px 0.5px 0 #fff, 0.5px 0.5px 0 #fff",
+                    WebkitTextStroke: "0.3px #fff",
+                    letterSpacing: "0.06em",
+                  }}
+                >
+                  Collectibles
+                </span>
               </div>
-
-              <h1
-                className="text-5xl font-black uppercase tracking-wide text-[#f5f5f5] sm:text-6xl lg:text-7xl comic-text-outline"
-                style={{ fontFamily: "'Bangers', 'Impact', sans-serif", letterSpacing: "0.06em" }}
-              >
-                <span className="text-[#FF1744]">J5</span> Collectibles
-              </h1>
-
-              <p
-                className="mt-4 text-2xl font-bold uppercase tracking-wider text-[#FFD700] sm:text-3xl"
-                style={{ fontFamily: "'Bangers', 'Impact', sans-serif", letterSpacing: "0.08em" }}
-              >
-                Your Local Trading Card Destination
-              </p>
 
               <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-[#a0a8d0]">
                 We specialize in trading card games such as Pokemon, One Piece, sports cards, and other miscellaneous collectibles.
