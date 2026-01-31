@@ -12,7 +12,7 @@ export function Footer() {
         <div className="grid gap-8 md:grid-cols-3">
           {/* Brand */}
           <div>
-            <Link href="/" className="flex items-center gap-2">
+            <Link href="/" className="flex items-center">
               <J5Logo size="small" />
               <span
                 className="text-2xl font-black uppercase tracking-wide text-[#FF1744]"
