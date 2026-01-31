@@ -26,8 +26,7 @@ export function Header() {
             className="text-2xl font-black uppercase tracking-wide text-[#FF1744]"
             style={{
               fontFamily: "'Bangers', 'Impact', 'Arial Black', sans-serif",
-              textShadow: "none",
-              WebkitTextStroke: "0.1px #fff",
+              textShadow: "0 0 1px rgba(255,255,255,0.4)",
               letterSpacing: "0.08em",
             }}
           >

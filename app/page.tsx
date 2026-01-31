@@ -51,8 +51,7 @@ export default function HomePage() {
                   style={{
                     fontFamily: "'Bangers', 'Impact', 'Arial Black', sans-serif",
                     color: "#FF1744",
-                    textShadow: "none",
-                    WebkitTextStroke: "0.1px #fff",
+                    textShadow: "0 0 1px rgba(255,255,255,0.4)",
                     letterSpacing: "0.06em",
                   }}
                 >
