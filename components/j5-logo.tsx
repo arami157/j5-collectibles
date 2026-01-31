@@ -79,8 +79,8 @@ export function J5LogoFull({ className = "" }: { className?: string }) {
         className="text-xl font-black uppercase tracking-tight"
         style={{
           color: "#FF1744",
-          textShadow: "-0.3px -0.3px 0 #fff, 0.3px -0.3px 0 #fff, -0.3px 0.3px 0 #fff, 0.3px 0.3px 0 #fff",
-          WebkitTextStroke: "0.15px #fff",
+          textShadow: "none",
+          WebkitTextStroke: "0.1px #fff",
           fontFamily: "'Impact', 'Arial Black', sans-serif",
         }}
       >

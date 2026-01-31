@@ -18,8 +18,8 @@ export function Footer() {
                 className="text-xl font-black uppercase text-[#FF1744]"
                 style={{
                   fontFamily: "'Bangers', 'Impact', sans-serif",
-                  textShadow: "-0.3px -0.3px 0 #fff, 0.3px -0.3px 0 #fff, -0.3px 0.3px 0 #fff, 0.3px 0.3px 0 #fff",
-                  WebkitTextStroke: "0.15px #fff",
+                  textShadow: "none",
+                  WebkitTextStroke: "0.1px #fff",
                 }}
               >
                 Collectibles
