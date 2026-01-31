@@ -42,19 +42,22 @@ export default function AboutPage() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-3xl text-center">
               <h1
-                className="flex items-center justify-center text-5xl font-black uppercase text-[#f5f5f5] comic-text-outline"
+                className="font-black uppercase text-[#f5f5f5] comic-text-outline"
                 style={{ fontFamily: "'Bangers', 'Impact', sans-serif", letterSpacing: "0.06em" }}
               >
-                About&nbsp;
-                <J5Logo size="medium" className="inline-block" />
-                <span
-                  style={{
-                    color: "#FF1744",
-                    textShadow: "0 0 4px #fff, 0 0 2px #fff, 0 0 1px #fff",
-                  }}
-                >
-                  Collectibles
-                </span>
+                <span className="text-5xl">About</span>
+                <div className="mt-2 flex items-center justify-center">
+                  <J5Logo size="medium" className="inline-block" />
+                  <span
+                    className="text-5xl"
+                    style={{
+                      color: "#FF1744",
+                      textShadow: "0 0 4px #fff, 0 0 2px #fff, 0 0 1px #fff",
+                    }}
+                  >
+                    Collectibles
+                  </span>
+                </div>
               </h1>
               <p className="mt-4 text-lg text-[#a0a8d0]">
                 Your neighborhood destination for trading cards and collectibles
