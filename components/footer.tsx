@@ -15,10 +15,11 @@ export function Footer() {
             <Link href="/" className="flex items-center gap-2">
               <J5Logo size="small" />
               <span
-                className="text-xl font-black uppercase text-[#FF1744]"
+                className="text-2xl font-black uppercase tracking-wide text-[#FF1744]"
                 style={{
-                  fontFamily: "'Bangers', 'Impact', sans-serif",
-                  textShadow: "0 0 1px rgba(255,255,255,0.4)",
+                  fontFamily: "'Bangers', 'Impact', 'Arial Black', sans-serif",
+                  textShadow: "0 0 4px #fff, 0 0 2px #fff, 0 0 1px #fff",
+                  letterSpacing: "0.08em",
                 }}
               >
                 Collectibles
