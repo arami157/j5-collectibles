@@ -2,6 +2,7 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Heart, Users, Store, Sparkles } from "lucide-react";
+import { J5Logo } from "@/components/j5-logo";
 
 const values = [
   {
@@ -41,10 +42,19 @@ export default function AboutPage() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-3xl text-center">
               <h1
-                className="text-5xl font-black uppercase text-[#f5f5f5] comic-text-outline"
+                className="flex items-center justify-center text-5xl font-black uppercase text-[#f5f5f5] comic-text-outline"
                 style={{ fontFamily: "'Bangers', 'Impact', sans-serif", letterSpacing: "0.06em" }}
               >
-                About <span className="text-[#FF1744]">J5</span> Collectibles
+                About&nbsp;
+                <J5Logo size="medium" className="inline-block" />
+                <span
+                  style={{
+                    color: "#FF1744",
+                    textShadow: "0 0 4px #fff, 0 0 2px #fff, 0 0 1px #fff",
+                  }}
+                >
+                  Collectibles
+                </span>
               </h1>
               <p className="mt-4 text-lg text-[#a0a8d0]">
                 Your neighborhood destination for trading cards and collectibles

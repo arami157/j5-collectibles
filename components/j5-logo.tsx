@@ -1,7 +1,8 @@
-export function J5Logo({ className = "", size = "default" }: { className?: string; size?: "small" | "default" | "large" }) {
+export function J5Logo({ className = "", size = "default" }: { className?: string; size?: "small" | "default" | "medium" | "large" }) {
   const dimensions = {
     small: { width: 48, height: 48 },
     default: { width: 64, height: 64 },
+    medium: { width: 80, height: 80 },
     large: { width: 200, height: 200 },
   };
 
@@ -41,8 +42,8 @@ export function J5Logo({ className = "", size = "default" }: { className?: strin
         fontWeight="900"
         letterSpacing="-2"
       >
-        {/* White outline */}
-        <tspan stroke="#FFF" strokeWidth="4" fill="none" strokeLinejoin="round">
+        {/* Black outline */}
+        <tspan stroke="#000" strokeWidth="4" fill="none" strokeLinejoin="round">
           J5
         </tspan>
       </text>
