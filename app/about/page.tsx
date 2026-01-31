@@ -59,9 +59,6 @@ export default function AboutPage() {
                   </span>
                 </div>
               </h1>
-              <p className="mt-4 text-lg text-[#a0a8d0]">
-                Your neighborhood destination for trading cards and collectibles
-              </p>
             </div>
           </div>
         </section>
